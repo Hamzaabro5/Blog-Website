@@ -177,3 +177,19 @@ nav i{
 .see-more-btn button:hover{
     background-color: #7a027ace;
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid #00000018;
+    padding: 30px 0px;
+}
+footer h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+footer i{
+    font-size: 26px;
+    margin: 0px 15px;
+    color: #000000c0;
+}
