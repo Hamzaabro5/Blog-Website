@@ -14,6 +14,9 @@ html,body{
 body{
     font-size: 1.4rem;
 }
+main{
+    margin: 0px 400px;
+}
 header{
     position: sticky;
     top: 0;
@@ -35,6 +38,7 @@ ul{
     list-style: none;
 }
 ul a{
+    color: #000;
     text-decoration: none;
 }
 nav ul{
@@ -54,4 +58,77 @@ nav ul li:hover{
 nav i{
     font-size: 2.5rem;
     margin-right: 5px;
+}
+.hero-section{
+}
+.hero-section-img{
+    margin-top: 40px;
+    /* margin-left: 400px; */
+}
+.hero-section-content{
+    margin-top: 10px;
+    /* margin-left: 390px; */
+    padding-bottom: 30px;
+    border-bottom: 2px solid #cccccc83;
+}
+.hero-section-content h1{
+    font-size: 40px;
+    color: #303030;
+    margin-bottom: 8px;
+}
+.hero-section-content h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.hero-section-content span{
+    color: #9c9c9c;
+    margin-left: 60px;
+    font-weight: 500;
+}
+.hero-section-content-p{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #887a7ab7;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+.hero-section-content-p h4{
+    font-size: 16px ;
+    margin-top: 20px;
+    font-weight: 800;
+    color: #000000ce;
+    font-style: italic;
+}
+.hero-section-content-p h1{
+    font-size: 28px ;
+    margin-top: 20px;
+    font-weight: 800;
+    color: #000000ce;
+}
+.hero-section-content-p h2{
+    font-size: 28px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #000000ce;
+}
+footer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid #00000018;
+    padding: 30px 0px;
+}
+footer h2{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+footer i{
+    font-size: 26px;
+    margin: 0px 15px;
+    color: #000000c0;
 }
