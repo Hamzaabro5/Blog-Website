@@ -117,10 +117,11 @@ nav i{
 }
 .card{
     border-radius: 10px;
-    box-shadow: 3px 3px 3px #0000005d;
+    box-shadow: 2px 2px 2px #0000005d;
     margin-bottom: 40px;
     padding: 10px 10px;
-    border: 0.5px solid #00000018;
+    border: 2px solid #00000018;
+    transition: 0.3s ease-in-out;
 }
 .card:hover{
     box-shadow: 3px 3px 3px #0000005d;
